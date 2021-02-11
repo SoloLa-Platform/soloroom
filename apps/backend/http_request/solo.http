@@ -1,0 +1,7 @@
+POST http://localhost:3333/v1/api/solo
+content-type: application/json
+
+{
+  "source_url": "https://www.youtube.com/watch?v=hxwjT90i8Ys",
+  "range": {"start": 10, "end": 30 }
+}

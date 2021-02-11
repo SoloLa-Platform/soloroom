@@ -1,2 +1,0 @@
-GET http://localhost:3333/api
-content-type: application/x-www-form-urlencoded

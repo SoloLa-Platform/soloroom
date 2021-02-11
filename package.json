@@ -28,9 +28,13 @@
   },
   "private": true,
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "body-parser": "^1.19.0",
     "express": "4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
     "vue": "^3.0.0",
-    "vue-router": "^4.0.0-0"
+    "vue-router": "^4.0.0-0",
+    "ytdl-core": "^4.0.2"
   },
   "devDependencies": {
     "@nrwl/cli": "10.3.1",
@@ -53,7 +57,7 @@
     "@vue/test-utils": "^2.0.0-0",
     "babel-core": "^7.0.0-bridge.0",
     "cypress": "^4.1.0",
-    "dotenv": "6.2.0",
+    "dotenv": "^8.2.0",
     "eslint": "7.10.0",
     "eslint-config-prettier": "6.0.0",
     "eslint-plugin-cypress": "^2.10.3",
